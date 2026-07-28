@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="calculator.css" />
+    <script src="./decimal.js"></script>
+    <title>Calculator V1</title>
+  </head>
+  <body id="root" class="root">
+    <div id="app" class="app">
+      <div id="section" class="section">
+        <h3>Type</h3>
+        <ul style="width: 100%; padding: 10px">
+          <li style="width: 100%;"><a href="#">classic</a></li>
+        </ul>
+      </div>
+      <div id="content" class="content">
+        <h1>Calculator Classic</h1>
+
+        <div id="calculator" class="calculator">
+            <div id="title" class="title">
+               <label style="margin: 10px;"> </label>
+            </div>
+          <div id="div-display" class="div-display">
+            <input type="text" value="0"  id="display" class="display"  readonly/>
+          </div>
+          <div id="keyboard" class="keyboard">
+            <button id="kAC" class="key key-control" value="AC">AC</button>
+            <button id="k+/-" class="key key-control" value="+/-">+/-</button>
+            <button id="k%" class="key key-control" value="%">%</button>
+            <button id="k/" class="key key-operator" value="/">/</button>
+            <button id="k7" class="key key-number" value="7">7</button>
+            <button id="k8" class="key key-number" value="8">8</button>
+            <button id="k9" class="key key-number" value="9">9</button>
+            <button id="k*" class="key key-operator" value="*">x</button>
+            <button id="k4" class="key key-number" value="4">4</button>
+            <button id="k5" class="key key-number" value="5">5</button>
+            <button id="k6" class="key key-number" value="6">6</button>
+            <button id="k-" class="key key-operator" value="-">-</button>
+            <button id="k1" class="key key-number" value="1">1</button>
+            <button id="k2" class="key key-number" value="2">2</button>
+            <button id="k3" class="key key-number" value="3">3</button>
+            <button id="k+" class="key key-operator" value="+">+</button>
+            <button id="k0" class="key key-number key-0" value="0">0</button>
+            <button id="k." class="key key-number" value=".">.</button>
+            <button id="k=" class="key key-operator" value="=">=</button>
+          </div>
+        </div>
+      </div>
+      <div id="publicity" class="publicity"></div>
+    </div>
+    <div id="footer" class="footer">created may 21 of 2023</div>
+</body>
+
+<script src="calculator.js"></script>
+</html>
+

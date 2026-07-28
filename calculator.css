@@ -1,0 +1,120 @@
+.root{
+    background-color: rgb(68, 67, 67);
+    min-width: 100%;
+    min-height: 100vh;
+    margin: 0;
+}
+.app{
+    width: 100%;
+    height: 95%;
+    display: flex;
+}
+.section{
+    /* border: solid 1px wheat; */
+    width: 0%;
+    z-index: -1;
+    /* display: none; */
+}
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* overflow: auto; */
+    z-index: 5;
+}
+.publicity{
+    /* border: solid 1px wheat; */
+    width: 0%;
+    z-index: -1;
+    /* display: none */
+}
+.footer{
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    border: solid 2px black;
+    border-radius: 10px;
+    width: 400px;
+    height: 620px;
+    margin: auto;
+    z-index: 10;
+}
+.title{
+    text-align: right;
+    font-size: 150%;
+    right: 5%;
+    width: 100%;
+    height: 0%;
+}
+.div-display{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+.display{
+    width: 100%;
+    height: 80%;
+    margin: 5px 0px;
+    background-color: rgb(68, 67, 67);
+    border: solid 0px;
+    color: white;
+    font-size: 300%;
+    text-align: right;
+    padding: 0px 10px;
+}
+.keyboard{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 80%;
+}
+.key{
+    width: 23%;
+    height: 18%;
+    border: solid 1px black;
+    font-size: 200%;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    margin: 1%;
+}
+.key-0{
+    width: 48%;
+    /* border-radius: 0px 0px 0px 10px; */
+    border-radius: 50px;
+}
+.key-number{
+    background-color: grey;
+}
+.key-control{
+    background-color: rgb(56, 55, 55);
+}
+.key-operator{
+    background-color: orange;
+}
+.selected{
+    background-color: white;
+    color: orange;
+}
+.click{
+    opacity: 50%;
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+
+    -webkit-appearance: none;
+
+    margin: 0;
+
+}
+input[type=number] {
+
+    -moz-appearance:textfield;
+
+}
